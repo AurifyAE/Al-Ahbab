@@ -222,6 +222,7 @@ function TvScreen() {
           overflow: "hidden",
         }}
       >
+        
         <Box
           component="img"
           src="/images/background.png"
