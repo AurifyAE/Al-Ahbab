@@ -37,8 +37,9 @@ const SystemClock = () => {
         "DEC",
       ];
 
-      const dateStr = `${String(now.getDate()).padStart(2, "0")} ${MONTHS[now.getMonth()]
-        } ${now.getFullYear()}`;
+      const dateStr = `${String(now.getDate()).padStart(2, "0")} ${
+        MONTHS[now.getMonth()]
+      } ${now.getFullYear()}`;
 
       const timeStr = now.toLocaleTimeString("en-US", {
         hour: "2-digit",

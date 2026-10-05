@@ -289,8 +289,7 @@ const CommodityTable = ({ title, items }) => {
 
                       background:
                         "linear-gradient(to right, transparent 5%, rgba(255, 210, 170, 0.76),transparent 95%)",
-
-                    }
+                    },
                   }}
                 >
                   <Typography

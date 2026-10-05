@@ -209,8 +209,6 @@ function TvScreen() {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#000",
-            opacity:"0.15"
-
       }}
     >
       <Box
@@ -232,8 +230,7 @@ function TvScreen() {
             height: "100%",
             width: "100%",
             objectFit: "cover",
-            opacity:"0.5"
-
+            opacity: "0.5",
           }}
         />
       </Box>
@@ -254,13 +251,6 @@ function TvScreen() {
         alignItems="center"
         width="100%"
       >
-        {/* Side: SpotRate & Date Time */}
-        <Grid xs={12} md={6} padding="1vw" gap="1vw" display="grid">
-          <SystemClock />
-          <WorldClockHorizontal />
-          <CommodityTable items={commodities} />
-          <PoweredByAurify />
-        </Grid>
         <Grid
           xs={12}
           md={6}
@@ -281,6 +271,13 @@ function TvScreen() {
             <img src={mainLogo} alt="" className="object-contain w-full" />
           </Box>
           <SpotRate />
+        </Grid>
+        {/* SpotRate & Date Time */}
+        <Grid xs={12} md={6} padding="1vw" gap="1vw" display="grid">
+          <SystemClock />
+          <WorldClockHorizontal />
+          <CommodityTable items={commodities} />
+          <PoweredByAurify />
         </Grid>
 
         <Grid

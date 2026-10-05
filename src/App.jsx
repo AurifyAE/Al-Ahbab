@@ -5,7 +5,6 @@ import "./App.css";
 import TvScreen from "./pages/tvscreenView";
 import ErrorPage from "./components/ErrorPage";
 import { Route, Routes } from "react-router-dom";
- 
 
 function App() {
   const [isTvScreen, setIsTvScreen] = useState(window.innerWidth >= 500);
@@ -33,7 +32,6 @@ function App() {
         <Routes>
           <Route path="/" element={<TvScreen />} />
           <Route path="*" element={<ErrorPage />} />
-       
         </Routes>
       )}
     </SpotRateProvider>

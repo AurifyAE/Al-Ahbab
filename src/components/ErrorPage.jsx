@@ -245,7 +245,6 @@ const ErrorPage = () => {
           {/* Logo */}
           <img src="/images/logo.svg" alt="Logo" className="ep-logo" />
 
-
           {/* Devices illustration */}
           <div className="ep-icon-wrap">
             <div className="ep-icon-glow" />
@@ -260,11 +259,13 @@ const ErrorPage = () => {
             </div>
 
             <h1 className="ep-heading">
-              Available on <em>Desktop</em><br />& TV only
+              Available on <em>Desktop</em>
+              <br />& TV only
             </h1>
 
             <p className="ep-sub">
-              This experience is optimised for larger screens. Please switch to a desktop computer or TV to continue.
+              This experience is optimised for larger screens. Please switch to
+              a desktop computer or TV to continue.
             </p>
           </div>
 
@@ -272,22 +273,75 @@ const ErrorPage = () => {
           <div className="ep-devices">
             <div className="ep-device">
               <svg width="64" height="44" viewBox="0 0 64 44" fill="none">
-                <rect x="1" y="1" width="62" height="38" rx="4" stroke="#4d9cf8" strokeWidth="1.5" fill="#0d2040" />
-                <rect x="8" y="8" width="48" height="26" rx="2" fill="#122a52" />
+                <rect
+                  x="1"
+                  y="1"
+                  width="62"
+                  height="38"
+                  rx="4"
+                  stroke="#4d9cf8"
+                  strokeWidth="1.5"
+                  fill="#0d2040"
+                />
+                <rect
+                  x="8"
+                  y="8"
+                  width="48"
+                  height="26"
+                  rx="2"
+                  fill="#122a52"
+                />
                 <rect x="22" y="39" width="20" height="4" fill="#1a3a6a" />
-                <rect x="16" y="43" width="32" height="1" rx="0.5" fill="#1e4070" />
+                <rect
+                  x="16"
+                  y="43"
+                  width="32"
+                  height="1"
+                  rx="0.5"
+                  fill="#1e4070"
+                />
               </svg>
               <span className="ep-device-label">Desktop</span>
             </div>
 
-            <div style={{ width: 1, height: 48, background: "#ffffff08", alignSelf: "center" }} />
+            <div
+              style={{
+                width: 1,
+                height: 48,
+                background: "#ffffff08",
+                alignSelf: "center",
+              }}
+            />
 
             <div className="ep-device">
               <svg width="80" height="56" viewBox="0 0 80 56" fill="none">
-                <rect x="1" y="1" width="78" height="46" rx="4" stroke="#4d9cf8" strokeWidth="1.5" fill="#0d2040" />
-                <rect x="6" y="6" width="68" height="36" rx="2" fill="#122a52" />
+                <rect
+                  x="1"
+                  y="1"
+                  width="78"
+                  height="46"
+                  rx="4"
+                  stroke="#4d9cf8"
+                  strokeWidth="1.5"
+                  fill="#0d2040"
+                />
+                <rect
+                  x="6"
+                  y="6"
+                  width="68"
+                  height="36"
+                  rx="2"
+                  fill="#122a52"
+                />
                 <rect x="30" y="47" width="20" height="4" fill="#1a3a6a" />
-                <rect x="24" y="51" width="32" height="4" rx="2" fill="#1e4070" />
+                <rect
+                  x="24"
+                  y="51"
+                  width="32"
+                  height="4"
+                  rx="2"
+                  fill="#1e4070"
+                />
               </svg>
               <span className="ep-device-label">TV</span>
             </div>
@@ -305,20 +359,75 @@ const ErrorPage = () => {
 
 function DevicesIllustration() {
   return (
-    <svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="220"
+      height="140"
+      viewBox="0 0 220 140"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       {/* Glow effect behind screens */}
       <ellipse cx="110" cy="95" rx="90" ry="28" fill="#1a4a8a" opacity="0.35" />
 
       {/* Monitor */}
-      <rect x="34" y="10" width="152" height="96" rx="8" fill="#0d1e38" stroke="#2a5090" strokeWidth="1.5" />
+      <rect
+        x="34"
+        y="10"
+        width="152"
+        height="96"
+        rx="8"
+        fill="#0d1e38"
+        stroke="#2a5090"
+        strokeWidth="1.5"
+      />
       <rect x="42" y="18" width="136" height="80" rx="4" fill="#0f2444" />
 
       {/* Screen content shimmer lines */}
-      <rect x="54" y="30" width="80" height="6" rx="3" fill="#1e4a8a" opacity="0.8" />
-      <rect x="54" y="44" width="56" height="4" rx="2" fill="#1a3d72" opacity="0.6" />
-      <rect x="54" y="54" width="96" height="4" rx="2" fill="#1a3d72" opacity="0.4" />
-      <rect x="54" y="64" width="72" height="4" rx="2" fill="#1a3d72" opacity="0.35" />
-      <rect x="54" y="74" width="40" height="4" rx="2" fill="#1a3d72" opacity="0.25" />
+      <rect
+        x="54"
+        y="30"
+        width="80"
+        height="6"
+        rx="3"
+        fill="#1e4a8a"
+        opacity="0.8"
+      />
+      <rect
+        x="54"
+        y="44"
+        width="56"
+        height="4"
+        rx="2"
+        fill="#1a3d72"
+        opacity="0.6"
+      />
+      <rect
+        x="54"
+        y="54"
+        width="96"
+        height="4"
+        rx="2"
+        fill="#1a3d72"
+        opacity="0.4"
+      />
+      <rect
+        x="54"
+        y="64"
+        width="72"
+        height="4"
+        rx="2"
+        fill="#1a3d72"
+        opacity="0.35"
+      />
+      <rect
+        x="54"
+        y="74"
+        width="40"
+        height="4"
+        rx="2"
+        fill="#1a3d72"
+        opacity="0.25"
+      />
 
       {/* Screen glow dot */}
       <circle cx="150" cy="50" r="18" fill="#1d4d9b" opacity="0.4" />
@@ -329,9 +438,37 @@ function DevicesIllustration() {
       <rect x="84" y="120" width="52" height="6" rx="3" fill="#1e3a70" />
 
       {/* Crossed-out phone (subtle overlay) */}
-      <rect x="172" y="70" width="32" height="50" rx="4" fill="#0d1e38" stroke="#1a3a6a" strokeWidth="1" opacity="0.7" />
-      <line x1="168" y1="66" x2="208" y2="124" stroke="#e05555" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
-      <line x1="208" y1="66" x2="168" y2="124" stroke="#e05555" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+      <rect
+        x="172"
+        y="70"
+        width="32"
+        height="50"
+        rx="4"
+        fill="#0d1e38"
+        stroke="#1a3a6a"
+        strokeWidth="1"
+        opacity="0.7"
+      />
+      <line
+        x1="168"
+        y1="66"
+        x2="208"
+        y2="124"
+        stroke="#e05555"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        opacity="0.7"
+      />
+      <line
+        x1="208"
+        y1="66"
+        x2="168"
+        y2="124"
+        stroke="#e05555"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        opacity="0.7"
+      />
     </svg>
   );
 }
