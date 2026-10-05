@@ -245,7 +245,7 @@ const CommodityTable = ({ title, items }) => {
         ) : (
           <Swiper
             direction="vertical"
-            slidesPerView={5}
+            slidesPerView={4}
             loop={true}
             modules={[Autoplay]} // 👈 Register it here
             autoplay={{

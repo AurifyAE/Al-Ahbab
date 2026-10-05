@@ -230,7 +230,7 @@ function TvScreen() {
             height: "100%",
             width: "100%",
             objectFit: "cover",
-            opacity: "0.5",
+            opacity: "0.25",
           }}
         />
       </Box>
