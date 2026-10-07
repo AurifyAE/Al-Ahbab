@@ -80,14 +80,14 @@ const SpotRate = () => {
   const getColors = (dir, isSilver) => {
     if (dir === "rise")
       return {
-        bgColor: "#00c853",
-        border: "1px solid #00E676",
+        bgColor: "rgba(34, 197, 94, 0.25)",
+        border: "1px solid rgba(74, 222, 128, 0.45)",
         color: "#ffffff",
       };
     if (dir === "fall")
       return {
-        bgColor: "#d50000",
-        border: "1px solid #ff1744",
+        bgColor: "rgba(239, 68, 68, 0.25)",
+        border: "1px solid rgba(248, 113, 113, 0.45)",
         color: "#ffffff",
       };
     return {
@@ -270,7 +270,7 @@ const SpotRate = () => {
             isSilver={isSilver}
           />
           <span style={{ color: "rgba(255,255,255,0.7)" }}>LOW </span>
-          <span className="hl-value-low" style={{ color: "#FF4D4D" }}>
+          <span className="hl-value-low" style={{ color: "#F87171" }}>
             {data.low != null ? data.low : "—"}
           </span>
         </Box>
@@ -296,7 +296,7 @@ const SpotRate = () => {
             isSilver={isSilver}
           />
           <span style={{ color: "rgba(255,255,255,0.7)" }}>HIGH </span>
-          <span className="hl-value-high" style={{ color: "#00E676" }}>
+          <span className="hl-value-high" style={{ color: "#4ADE80" }}>
             {data.high != null ? data.high : "—"}
           </span>
         </Box>
